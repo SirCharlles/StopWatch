@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;  
+    background-image:url(timer.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .container{
+    margin: 50px auto;
+    text-align: center;
+  }
+  h1{
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+  }
+  #time{
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 5px 5px rgb(0, 0, 0);
+  }
+  button{
+    border: none;
+    padding: 18px 10px;
+    font-size: 1.5em;
+    width: 180px;
+    margin: 10px;
+    border-radius: 15px;
+    color: #2778a7;
+    font-weight: bold;
+  }
+  button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #ffff;
+    transition: 0.4s;
+    border: none;
+  }
